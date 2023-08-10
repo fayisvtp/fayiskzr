@@ -1,0 +1,123 @@
+@font-face {
+    font-family:test1;
+    src: url(font/Creattion\ Demo.otf);
+}
+body{
+    /* background-color: #111111; */
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+h1,h2{
+    margin: 0;
+}
+.navbar{
+   background-color:#222222;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#logo:hover {
+color: #635985;
+}
+.nav-link{
+    
+  font-family: serif;  
+        color: aliceblue;
+        /* position: relative;
+        left: 880px;   */
+}
+.nav-link:hover{
+    color: #635985;
+}
+.na-items{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    right: 10rem;
+}
+.main-txt i{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    padding-left: 1rem;
+    
+}
+.main-txt i:hover{
+    color: #635985;
+}
+.me_fayis{
+    width: 500px;
+    height: 200px;
+    color: #ffffff;
+    /* background-color: antiquewhite; */
+    position: relative;
+    right: -683px;
+    top: -325px;
+    display: flex;
+}
+.main-area{
+    background-color: #222222;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services-area{
+    background: #111111;
+}
+.s-card{
+    background: rgb(17,17,17);
+    border: none;
+    height: 18rem;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    border-radius: 0.5rem;
+    background: linear-gradient(90deg, rgba(17,17,17,1) 0%, rgba(17,17,17,1) 0%, rgba(99,89,133,1) 71%);
+}
+.fy{
+    display: none;
+    transition: all 0.5s ease-in-out;
+}
+.hos{
+    display: block;
+    transition: all 0.5s ease-in-out;
+}
+.s-card:hover .fy{
+    display: block;
+}
+.s-card:hover .hos{
+    display: none;
+}
+.s-card:hover{
+    background: rgb(17,17,17);
+    background: linear-gradient(90deg, rgba(17,17,17,1) 0%, rgba(17,17,17,1) 0%, rgba(72,61,108,1) 65%);
+}
+.social_media_icon{
+    height: 15px;
+    width: 129px;
+    color: #ffffff;
+    /* background-color: antiquewhite; */
+    position: relative;
+    right: -683px;
+    top: -220px;
+    /* display: */
+
+}
+.insta:hover{
+    color: #635985;
+}
+.fb:hover{
+    color: #635985;
+}
+.twiter:hover{
+    color: #635985;
+}
+.signature{
+    color: #635985;
+    font-family:test1;
+    font-style:italic;
+}
+.nav-it{
+    display: flex;
+    
+}
